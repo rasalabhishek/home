@@ -5,7 +5,10 @@
 }
 
 body {
-
+background-color: #e0f2f1;
+--bg-clr:#e0f2f1;
+background-color: var(--bg-clr);
+position: relative;
 }
 
 .header{
@@ -16,14 +19,14 @@ body {
 
 .profile-picture{
     display: block;
-    height: 10vh;
-    width: 10vh;
+    height: 17vh;
+    width: 17vh;
 }
 
 .image-wrapper{
-  max-width: 17%;
+  max-width: 11%;
   position: relative;
-  margin: 3% 0px 3% 5%;
+  margin: 4% 0px 3% 3%;
 }
 
 .image-wrapper img{
@@ -58,12 +61,14 @@ body {
 }
 
 .heading-primary{
+color: #45B29A;
 display: block;
 position: relative;
 text-transform: uppercase;
 }
 
 .heading-secondary{
+color: #45B29A;
 display: block;
 text-transform: uppercase;
 }
@@ -78,6 +83,7 @@ width: 100%;
 }
 
 hr {
+    color: grey;
     margin-left: 35%;
     width: 30%;
     border-width: 5px;
