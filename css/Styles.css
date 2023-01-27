@@ -9,6 +9,7 @@ background-color: #e0f2f1;
 --bg-clr:#e0f2f1;
 background-color: var(--bg-clr);
 position: relative;
+padding: 0 5% 0 5%;   
 }
 
 .header{
@@ -19,8 +20,8 @@ position: relative;
 
 .profile-picture{
     display: block;
-    height: 17vh;
-    width: 17vh;
+    height: 17%;
+    width: 17%;
 }
 
 .profile-picture__header {
