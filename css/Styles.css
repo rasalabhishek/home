@@ -5,28 +5,33 @@
 }
 
 body {
-background-color: #e0f2f1;
---bg-clr:#e0f2f1;
-background-color: var(--bg-clr);
-position: relative;
+font-family: "lato";
+font-weight: 400;
 }
 
 .header{
     height: 100%;
     background-color: #e0f2f1;
     padding:0 10px;
+    --bg-clr:#e0f2f1;
+    background-color: var(--bg-clr);
+    position: relative;
+}
+
+.profile-box-model{
+padding-top: 4%;
 }
 
 .profile-picture{
     display: block;
-    height: 17%;
-    width: 17%;
+    width: 20%;
+    position: relative;
 }
 
 .profile-picture__header {
-max-width: 15%;
+max-width: 11%;
 position: relative;
-margin: 6% 0px 3% 3%;
+margin: 0px 0px 3% 3%;
 }
 
 .profile-picture__header img{
@@ -56,21 +61,32 @@ margin: 6% 0px 3% 3%;
     width: 100%;
 }
 
-.heading{
+.headings{
     text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+text{
+    text-transform: uppercase;
+    stroke: #4AB19A;
+    font-size: 30px;
 }
 
 .heading-primary{
     color: #45B29A;
 display: block;
 position: relative;
-text-transform: uppercase;
+font-size: 100%;
+letter-spacing: 5px;
 }
 
 .heading-secondary{
     color: #45B29A;
 display: block;
-text-transform: uppercase;
+font-size: 80%;
+letter-spacing: 2.5px;
 }
 
 .bottom-cloud{
