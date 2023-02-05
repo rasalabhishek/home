@@ -180,6 +180,14 @@ hr {
 
 .footer{
     margin-top: 2%;
+    padding: 2% 2%;
+    text-align: center;
+    background-color: #C5DED7;
+}
+
+.footer-links{
+    text-decoration: none;
+    margin-left: 2%;
 }
 
 /* Animations */
